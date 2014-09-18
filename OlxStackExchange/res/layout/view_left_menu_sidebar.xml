@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@color/color_dark_blue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_smenu_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+        android:text="@string/smenu_name" />
+    
+    <TextView
+        android:id="@+id/txt_smenu_version"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+        android:text="@string/smenu_version" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:background="@color/color_light_blue"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_light_gray"
+        android:text="@string/smenu_yoursite" />
+    
+    <TextView
+        android:id="@+id/txt_smenu_stackoverflow"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+        android:text="@string/smenu_stackoverflow" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:background="@color/color_light_blue"
+        android:textColor="@color/color_light_gray"
+        android:gravity="center_vertical"
+        android:text="@string/smenu_other" />
+    
+    <TextView
+        android:id="@+id/txt_smenu_help"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/color_white"
+        android:gravity="center_vertical"
+        android:text="@string/smenu_help" />
+    
+    <TextView
+        android:id="@+id/txt_smenu_setting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/color_white"
+        android:gravity="center_vertical"
+        android:text="@string/smenu_setting" />
+
+</LinearLayout>
